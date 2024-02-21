@@ -16,6 +16,8 @@
     /* Linting */
     "strict": true,
     "skipLibCheck": true,
-    "noFallthroughCasesInSwitch": true,
-  }
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src", "db"],
+  "exclude": ["node_modules"]
 }

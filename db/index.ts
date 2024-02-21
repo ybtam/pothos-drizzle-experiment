@@ -9,6 +9,6 @@ export const client = new Client({
   database: process.env.DB_NAME!,
 });
 
-await client.connect();
+client.connect();
 
 export const db = drizzle(client);
