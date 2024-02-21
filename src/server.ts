@@ -1,6 +1,6 @@
 import {createYoga} from "graphql-yoga";
-import {schema} from "./schema.ts";
 import bun from "bun";
+import {schema} from "./schema.ts";
 
 export function server() {
   const yoga = createYoga({
